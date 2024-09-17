@@ -1,0 +1,104 @@
+body {
+  background-image: url(../Login/imageneslogin/dark.jpg);
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MisDatos {
+  position: relative;
+  top: 20px;
+  left: center;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 2px 4px 15px #0a2cec;
+}
+.MisDatos h4 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+h3 {
+  position: relative;
+  top: -20px;
+  left: -6px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.caja {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border: 1px solid #0a2cec;
+  border-radius: 7px;
+  margin-bottom: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+.botones {
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(10, 44, 236, 0.8);
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.boton2 {
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+  left: center;
+  width: 100%;
+  background-color: rgba(10, 44, 236, 0.8);
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.boton {
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  width: 78px;
+  position: relative;
+  top: -9px;
+  left: 100px;
+  text-align: center;
+  color: white;
+  background-color: rgba(10, 44, 236, 0.8);
+  border: black;
+  padding: 5px;
+}
+.boton:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.logo {
+  opacity: 0.9;
+  text-align: center;
+  width: 40%;
+  height: 15%;
+  position: relative;
+  top: center;
+  left: 100px;
+}
+a{
+  text-align: center;
+}
+.texto{
+  text-align: center;
+}
